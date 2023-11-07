@@ -18,8 +18,9 @@ public class Main {
         notas.add(1);
 
         /* Cria a instância da classe 'MediaNotas' e imprime o retorno do 'calcularMedia' */
-        MediaNotas mediaNotas = new MediaNotas(notas);
-        System.out.println(mediaNotas.calcularMedia());
+        MediaNotas notasAluno = new MediaNotas(notas);
+        System.out.println(notasAluno.calcularMedia());
+        System.out.println(notasAluno.alunoFoiAprovado());
 
     }
 }
